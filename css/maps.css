@@ -1,0 +1,146 @@
+.map_container{
+	width:100%;
+	height:65em;
+	position: relative;
+	background:url(../img/mapCover.jpg)no-repeat fixed;
+	background-size: cover;
+	z-index: 1;
+	
+}
+
+
+.maps{
+	width:90%;
+	max-height: 100%;
+	position: absolute;
+	z-index: 10;
+	margin: 0;
+	width: 50%;
+	
+}
+
+
+.map_container a{
+    display:block;
+    width: 100%;
+    height:100%;
+    position: absolute;
+}
+
+.maps a{
+    width:13em;
+	height:4em;
+	margin-bottom: 2.5em;
+	background-color: white;
+	border:4px black solid;
+	position:relative;
+	margin-left: 12em;
+	transition: width 1s;
+    overflow: hidden;
+	
+}
+
+.maps a:hover{
+    width:18em;
+}
+
+.maps :first-child{
+	margin-top: 7em;
+	background: url(../img/map_bountifulSea.webp)no-repeat;
+	background-position: -6em -2em;
+}
+.maps :nth-child(2){
+	background: url(../img/map_coastlineSunset.webp)no-repeat;
+	background-position: -2em -4em;
+}
+.maps :nth-child(3){
+	background: url(../img/map_condorCanyon.webp)no-repeat;
+	background-position-x: -2em;
+	
+}
+.maps :nth-child(4){
+	background: url(../img/map_duskAfterTheRain.jpg)no-repeat;
+	
+}
+.maps :nth-child(5){
+	background: url(../img/map_eternalParadise.webp)no-repeat;
+	background-position-x: -3em;
+	background-position-y: -8em;
+}
+.maps :nth-child(6){
+	background: url(../img/map_FireworksOverBarcelona.jpg)no-repeat;
+}
+.maps :nth-child(7){
+	background: url(../img/map_fontanaDiTrevi.webp)no-repeat;
+	background-position-y: -2em;
+}
+
+.maps :nth-child(8){
+    background: url(../img/map_winterPalace.webp)no-repeat;
+}
+
+.maps2{
+
+	float:right;
+	width:50%;
+	max-height:100%;
+}
+
+.maps2 a{
+	
+	width:13em;
+	height:4em;
+	margin-bottom: 2.5em;
+	background-color: white;
+	border:4px black solid;
+	position:relative;
+	margin-right: 12em;
+	transition: width 1s;
+    overflow: hidden;
+	
+}
+.maps2 a:hover{
+	width: 18em;
+}
+
+.maps2 {
+  direction: rtl;
+}
+.maps2 > * {
+  direction: ltr;
+}
+
+.maps2 :first-child{
+	margin-top: 7em;
+    background: url(../img/map_hallOfJudgement.webp)no-repeat;
+}
+
+.maps2 :nth-child(2){
+    background: url(../img/map_heavenlyGarden.jpg)no-repeat;
+}
+
+.maps2 :nth-child(3){
+    background: url(../img/map_moonlitWilderness.webp)no-repeat;
+}
+
+.maps2 :nth-child(4){
+    background: url(../img/map_Naraku.webp)no-repeat;
+}
+
+.maps2 :nth-child(5){
+    background: url(../img/map_riversidePromenade.webp)no-repeat;
+    background-position-y: -8em;
+}
+
+.maps2 :nth-child(6){
+    background: url(../img/map_snoopDogg.jpg)no-repeat;
+}
+
+.maps2 :nth-child(7){
+    background: url(../img/map_strategicSpace.jpg)no-repeat;
+}
+
+.maps2 :nth-child(8){
+    background: url(../img/map_tulipFestival.webp)no-repeat;
+    background-position-y:-7em;
+}
